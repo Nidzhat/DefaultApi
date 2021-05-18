@@ -17,18 +17,18 @@ namespace DefaultApi.Controllers
             {
                 new WeatherInfo {
                     Id = 1,
-                    city = "Astana",
-                    date = DateTime.Today,
-                    maxTemp = 38,
-                    minTemp = 35,
+                    City = "Astana",
+                    Date = DateTime.Today,
+                    MaxTemp = 38,
+                    MinTemp = 35,
                     WeatherType = WeatherTypes.Cloudy
                 },
                 new WeatherInfo {
                     Id = 2,
-                    city = "Almaty",
-                    date = DateTime.Today.AddDays(1),
-                    maxTemp = 26,
-                    minTemp = 15,
+                    City = "Almaty",
+                    Date = DateTime.Today.AddDays(1),
+                    MaxTemp = 26,
+                    MinTemp = 15,
                     WeatherType = WeatherTypes.Rain
                 }
 
